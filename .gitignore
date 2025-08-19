@@ -19,7 +19,6 @@ venv/
 
 # ---- Env / secrets ----
 .env
-.env.*
 *.pem
 *.key
 
