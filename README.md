@@ -19,7 +19,7 @@ Django 5 · DRF · SimpleJWT · drf-spectacular · PostgreSQL · Docker/Compose
 make start         # build & start DB + API
 make stop          # stop stack
 make migrate       # apply migrations
-make logs S=web    # tail logs (S=web|db)
+make logs-f    # tail logs (S=web|db)
 make status        # container status
 make help          # list all targets
 ```
